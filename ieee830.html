@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../root/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
+        <title>SRS</title>
+    </head>
+    <header>
+        <hr>
+        <hr>
+        <h1>Especificación de Requisitos Según el estándar de IEEE 8830.</h1>
+        <p>by Nicasio Freytez</p>
+        <hr>
+        <hr>
+    </header>
+    <body>
+        <h2>Resumen.</h2>
+        <p>Este documento presenta, la Especificación de Requisitos Software (<dfn><abbr title="Especificación de Requisitos Software">ERS</abbr></dfn>) según la última versión del estándar IEEE 830 para el sitio web de la empresa <br>
+        <strong>The cut barbería social club </strong>(<dfn title="The cut barbería social club">el cliente</dfn>) con sede en la Ave. Nueva Prodivencia 2212 loc 205.
+        El sitio viene a complementar la presencia en medios digitales 
+        de <dfn title="The cut barbería social club">el cliente</dfn>. La que, hasta el momento utiliza <a href="https://www.instagram.com/thecutbarberiasocialclub/?hl=es" target="_blank">instagram</a> como medio para ofrecer sus servicios. 
+        Sin embargo, no se  muestran las <i>comodidades que ofrece similares a las de un club social familiar</i>. 
+        Este sitio web <strong>se desarrolla con un propósito netamente educativo</strong>. Todos los medios digitales empleados
+        <strong> son propiedades de sus productores: <dfn title="The cut barbería social club">el cliente</dfn> </strong>como persona jurídica. 
+        El producto es un prototipo parcialmente funcional que mostrará todas las vistas, diseñado para apuntar 
+        a dos páginas: tienda y reserva.
+        <strong>Por requerimentos didácticos</strong> y para generar una experiencia más completa, se incluirán en el diseño otras páginas 
+        en la estructura: main, contactos y anular reserva. Las cuales son adicionales a las solicitadas por <dfn title="The cut barbería social club">el cliente</dfn>.
+        </p> <hr>
+        <h2>Índice:</h2>
+        <ol>
+        <h2><li type="1">Introducción.</li></h2>
+        <ol type="a">
+            <li>Propósito.</li>
+            <li>Ámbito del sistema.</li>
+            <li>Referencias.</li>
+        </ol>
+        <h2><li>Descripción general.</li></h2>
+        <ol type="a">
+            <li>Perspectivas del producto.</li>
+            <li>Funciones del producto.</li>
+            <li>Características de los usuarios.</li>
+            <li>Restricciones de diseño.</li>
+            <li>Requisitos futuros</li>
+        </ol>
+        <h2><li>Requisitos específicos.</li></h2>
+        <ol type="a">
+            <li>Estructura de carpetas y archivos</li>
+            <li>Wireframe.</li>
+        </ol>
+        </ol>
+        <hr>
+        <h2>1. Introducción.</h2>
+        <p><dfn title="The cut barbería social club">El cliente</dfn>, es un prestador de servicios varios: barbería, expendio de bebidas con y sin alcohol, venta de productos para el cuidado personal por mayor y detal. Es una empresa con sede única en Chile, Región Metropolitana en la ciudad de Santiago. Ubicada en la Ave. Nueva Providencia 2212 Loc. 205.<br><br>
+        El inicio formal de operaciones fue el 5 de julio de 2022. Buscando mostrar los atributos que la diferencian de la competencia <dfn title="The cut barbería social club">El cliente</dfn>, tiene un propuesta que va más allá de un corte de cabello y barba.<br><br>
+        En sus instalaciones y por su espacio y diseño, además de servicio de barbería el local ofrece un espacio de entrenimiento con cónsolas de vídeo juegos y una recepción con bar. Combinado con un espacio donde se muestran y se usan productos de cuidado personal que están a la disposición de la compra de cualquier ineteresado.<br><br>
+        Se busca entonces, una manera que nuevos interesados puedan comprender este nuevo tipo de propuesta, empleando un espacio web con este propósito. Donde a diferencia de las redes sociales se podrá tener una vista más controlada de lo que <dfn title="The cut barbería social club">El cliente</dfn> quiere mostrar</p><br>
+        <ul><h2>1.a. Propósito.</h2>
+        <p>Desarrollar un prototipo no funcional de un sitio web que le permita a los usuarios: reservar horas, interactuar con un catálogo de productos y familiarizarlos con la experiencia que ofrece <dfn title="The cut barbería social club">El cliente</dfn>
+        Considerando esto se propone un sitio web de cinco páginas para satisfacer las necesidades de <dfn title="The cut barbería social club">El cliente</dfn>.</p><br>
+        <h2>1.b. Ámbito del sistema.</h2>
+        <ul>
+            <li>El sistema será denominado como "sitio web de The cut barbería social club".</li>
+            <li>El sitio web de The cut barbería social club, mostrará multimedia relacionado con actividades de <dfn title="The cut barbería social club">El cliente.</dfn></li>
+            <li>Se desarrollará como un todo, conformado de cinco páginas: main, reservas, tienda, anular reserva y contacto.</li>
+            <li>La página main: mostrará información de interés general.</li>
+            <li>La página reserva: simulará el proceso de agendar una hora.</li>
+            <li>La página tienda: simulará el proceso de comprar un producto.</li>
+            <li>La página contacto: simulará el proceso de enviar un mensaje, mediante el uso de un formulario.</li>
+        </ul>
+        <br>
+        <h2>1.c. Referencias.</h2>
+        <p>La fuente de la información es <dfn title="The cut barbería social club">El cliente</dfn>. Se obtuvo mediante la técnica de la entrevista, llevada a cabo a través de un guión de preguntas abiertas que no estaban estructuradas. </p> <br>
+        </ul>
+        <hr>    
+        <h2>2. Descripción general.</h2>
+        Este documento pretende de forma ordenada, el acuerdo de diseño al que han llegado <dfn title="The cut barbería social club">El cliente.</dfn> y <dfn title="Nicasio Freytez">El desarrollador</dfn>. La intención es de generar acciones que conlleven a la geración de vistas ordenadas que simulen el funcionamiento. <br>
+        Se aplicarán tecnologías: html, css, framewoks, sass y criterios seo.
+        <ul><h2>2.a. Propósito.</h2>
+            <p>Desarrollar un prototipo no funcional de un sitio web que le permita a los usuarios: reservar horas, interactuar con un catálogo de productos y familiarizarlos con la experiencia que ofrece <dfn title="The cut barbería social club">El cliente</dfn>. <br>
+            Considerando esto se propone un sitio web de cinco páginas para satisfacer las necesidades de <dfn title="The cut barbería social club">El cliente</dfn> y los objetivos que se establecen en la materia.</p>
+            <h2>2.b. Funciones de producto.</h2>
+            <p>Entre las funciones del producto se encuentran:</p>
+        <ul>
+            <li>Colocar el logo de <dfn title="The cut barbería social club">el cliente</dfn> en cada página del sitio.</li>
+            <li>Simular de manera fidedigna los procesos de: reserva, anulación de reserva, contacto y compra.</li>
+            <li>Insertar un vínculos a la redes sociales de <dfn title="The cut barbería social club">el cliente</dfn></li>
+            <li>Proveer una experiencia cercana al funcionamiento del sistema.</li>
+        </ul>
+        <h2>2.c. Características de los usuarios.</h2>
+        <p>Los usuarios serán los interesados del sistema. Modificaciones de contenido, forma, funcionamiento, entradas y salidas de datos, se harán por <dfn title="Nicasio Freytez">El desarrollador</dfn>.</p>
+        <h2>2.d. Restricciones de diseño.</h2>
+        <p>Por las necesidades de <dfn title="The cut barbería social club">el cliente</dfn> y las características de diseño se definen las siguientes limitanciones:</p><br>
+        <ul>
+            <li>El sistema no poseerá una base de datos para gestionar: clientes, reservas, personal o productos.</li>
+            <li>El alcance del desarrollo es el prototipado no la funcionalidad.</li>
+            <li>No se establece un anillo de usuarios ya que el prototipo será utilizado para representar el funcionamiento. Es decir, será operable pero no funcional.</li>
+            <li>Las entradas serán preestablecidas y las salidas serán simuladas.</li>
+            <li>No se desarrolla una página de galería de fotos ya que <dfn title="The cut barbería social club">el cliente</dfn> quiere manejar esos recursos vía instagram.</li>
+        </ul>
+        <h2>2.e. Requisitos futuros.</h2>
+        <p>Por las necesidades de <dfn title="The cut barbería social club">el cliente</dfn> y las características de diseño se definen los siguientes requisitos futuros:</p><br>
+        <ul>
+            <li>Diseñar, desarrollar e implantar una base de datos relacional.</li>
+            <li>Adquirir el dominio y un hosting.</li>
+            <li>Desarrolar una página con una galería que muestre al staff con algún tipo de información relevante.</li>
+            <li>Incluir un módulo de usuarios para así facilitar el proceso de reservas y comunicar promociones.</li>
+        </ul>
+        </ul>
+        <hr>    
+        <h2>3. Requisitos específicos.</h2>
+        En esta sección del documento se muestra de detalle de lo que se va a desarrollar. Se utiliza un lenguaje común y se apoya en ilustraciones para fijar los parámetros de diseño de una forma clara.
+        <ul><h2>3.a. Estructura y carpeta de archivos.</h2>
+            <img src="images/fileStructure2x.png" width="711" height="725" alt="Site File Structure">
+            <h2>3.b. Wireframe</h2>
+            <div>
+                <img src="images/wireFrame00.png" width="768" height="432" alt="Site File Structure"> 
+                <div class="div1">
+                    <p><b>Página de bienvenida.</b><br> <br>
+                        Click en el <strong>logo </strong> ingresa a la página principal. <br>
+                        Click en el botón de <strong>reservas </strong>se ingresa para agendar horas. <br>
+                        Click en el boón de <strong>compras </strong>se ingresa a la tienda. <br>
+                    </p> 
+                </div>
+                <br>
+            </div>
+            <div>
+                <img src="images/wireFrame01.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página principal.</b><br>
+                    Página donde se muestra una reseña de la compañía y una imagen que se complementa con una reseña.</p> 
+                </div>
+                <br>
+            </div>
+            <div>
+                <img src="images/wireFrame02.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de contacto.</b><br>
+                    Contiene un formulario que permite el envío de un mensaje breve.</p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame02.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de anular reserva.</b><br>
+                    Indica la política de cancelación y muestra el formulario para solicitar la cancelación</p> 
+                </div>
+            </div>
+
+            <div>
+                <img src="images/wireFrame03.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de reserva.</b><br>
+                    Muestra una foto y el nombre del estilista que lo atenderá. <br>
+                    Al hacer click en el botón del nombre, se pasa al siguiente paso de la reserva.</p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame04.png" width="768" height="846" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de selección de servicio.</b><br>
+                    Se selecciona de una lista el servicio a contrar y se muestra su costo.<br>
+                    Se mantiene a la vista el estilista elegido.</p> 
+                </div>
+            </div>
+
+            <div>
+                <img src="images/wireFrame05.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de selección de fecha.</b><br>
+                    Se selecciona de un calendario fecha y turno.<br>
+                    Se mantiene a la vista el estilista elegido y el servicio.</p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame06.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de pago.</b><br>
+                    Se verifican el pedido y se ingresan los datos de pago.<br>
+                    </p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame07.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de pago exitoso.</b><br>
+                    Muestra una pantalla informativa al usuario que el pago fue aprobado. Puede ser sustituída en el futuro por un mensaje.</p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame08.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Página de pago fallido.</b><br>
+                    Muestra una pantalla informativa al usuario que el pago fue aprobado. Puede ser sustituída en el futuro por un mensaje.</p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame09.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Tienda.</b><br>
+                    Arreglo ordenado de cartas que muestra productos con descripción y precio.</p> 
+                </div>
+            </div>
+            <div>
+                <img src="images/wireFrame10.png" width="768" height="432" alt="Site File Structure">
+                <div class="div1">
+                    <p><b>Se verifica el pedido y se ingresan los datos de pago.</b><br></p> 
+                </div>
+            </div>
+        </ul>
+        <hr>    
+        <h2>4. Conclusión.</h2>
+        Se ha mostrado la lógica de diseño de un sitio web, orientado a generar presencia de un establecimiento comercial en internet.
+        La estructura que se plantea satisface los requerimientos expresados.
+        El diseño de las interfaces y el flujo de las páginas puede y será modificado según se avance en el desarrollo para cumplir con las exigencias de <dfn title="The cut barbería social club">el cliente</dfn>.<br>
+        Aunque se hagan modificaciones en las interfaces, siempre se tratará de mantenerse fiel al diseño original y sus componentes.
+        <hr>  
+        <hr>    
+
+
+</body>
+</html>
+
