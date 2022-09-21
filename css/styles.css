@@ -1,6 +1,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: gray;
+}
+
+.indexBody{
+  background-color: #000000;
+}
+
+.ieee830Body{
     background-color: #141414;
 }
 
@@ -51,4 +58,8 @@ a:link {
     margin: 0px;
     float: left;
     width: 250px;
+  }
+
+  .divSrs {
+    background-color: #141414;
   }
