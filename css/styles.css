@@ -3,6 +3,10 @@ body{
     color: gray;
 }
 
+footer{
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+}
 .indexBody{
   background-color: #000000;
 }
@@ -62,4 +66,43 @@ a:link {
 
   .divSrs {
     background-color: #141414;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #141414;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  
+  .button3 {padding: 14px 40px; width: 25%; left: 50%; font-family: 'Montserrat', sans-serif; color: white;}
+  .button4 {padding: 14px 40px; width: 25%; right: 50%; font-family: 'Montserrat', sans-serif; color: white;}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
