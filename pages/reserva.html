@@ -14,58 +14,81 @@
 
 <body>
     <header>
-        <h1>reserva</h1>
+        <h1>tienda</h1>
         <nav>
             <ul>
-                <li> <a href="main.html">principal</a></li>
-                <li> <a href="reserva.html">reservas</a></li>
-                <li> <a href="tienda.html">tienda</a></li>
-                <li> <a href="contacto.html">contacto</a></li>
-                <li> <a href="anular.html">anular</a></li>
-                <li> <a href="https://www.instagram.com/thecutbarberiasocialclub/?hl=es" target="_blank">instagram</a></li>
+                <li> <a href="main.html"><p>principal</p></a></li>
+                <li> <a href="reserva.html"><p class="pactiva">reservas</p></a></li>
+                <li> <a href="tienda.html"><p>tienda</p></a></li>
+                <li> <a href="contacto.html"><p>contacto</p></a></li>
+                <li> <a href="anular.html"><p>anular</p></a></li>
+                <li> <a href="https://www.instagram.com/thecutbarberiasocialclub/?hl=es" target="_blank"><p>instagram</p></a></li>
             </ul>
         </nav>
+        <hr>
     </header>
 
     <main>
         <article>
-            <header>
-                <h1>
-                    header 1
-                </h1>
-            </header>
+            <p>elige tu estilista</p>
+            <form action="/action_page.php">
+                 <input type="radio" id="omar" name="estilista" value="omar">
+                 <label for="omar">omar</label><br>
+                 <div class="card">
+                    <img src="../images/omar.jpg" alt="omar" style="width:100%">
+                    <h1>omar</h1>
+                    <p class="title">CEO & Founder</p>
+                    <div style="margin: 24px 0;">
+                    </div>
+                </div>
+                 <input type="radio" id="mario" name="estilista" value="mario">
+                 <label for="mario">mario</label><br>
+                 <div class="card">
+                    <img src="../images/mario.jpg" alt="mario" style="width:100%">
+                    <h1>Mario</h1>
+                    <p class="title">Estilista</p>
+                    <div style="margin: 24px 0;">
+                    </div>
+                </div>
+                 <input type="radio" id="roger" name="estilista" value="roger">
+                 <label for="roger">roger</label><br><br>
+                 <div class="card">
+                    <img src="../images/roger.jfif" alt="roger" style="width:100%">
+                    <h1>roger</h1>
+                    <p class="title">Estilista</p>
+                    <div style="margin: 24px 0;">
+                    </div>
+                </div>
+            </form> 
             <div>
-                <section>
-                    <h1>
-                        header 1
-                    </h1>
-                    <article>
-                        <h2>
-                            header 2
-                        </h2>
-                    </article>
-                    <article>
-                        <h2> h2
-
-                        </h2>
-                    </article>
-                </section>
+                <p>elige tu servicio</p>
+                    <input type="radio" id="lavado" name="servicio" value="lavado">
+                    <label for="lavado">lavado</label><br>
+                    <input type="radio" id="secado" name="servicio" value="secado">
+                    <label for="secado">secado</label><br>
+                    <input type="radio" id="corte" name="servicio" value="corte">
+                    <label for="corte">corte</label><br><br>
+                </form> 
+            </div>
+            <div>
+                <p>elige forma de pago</p>
+                <form action="./mensaje.html">
+                    <input type="radio" id="t crédito" name="pago" value="t crédito">
+                    <label for="t crédito">t crédito</label><br>
+                    <input type="radio" id="t débito" name="pago" value="t débito">
+                    <label for="t débito">t débito</label><br>
+                    <input type="radio" id="transferencia" name="pago" value="transferencia">
+                    <label for="transferencia">transferencia</label><br><br>
+                    <input type="submit" value="Submit">
+                </form> 
             </div>
         </article>
-        <aside>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima modi facilis voluptas laudantium corporis incidunt ducimus ipsam dolore assumenda voluptatem, adipisci impedit, expedita beatae, tempore aspernatur itaque a in.</p>
-            </div>
-            <div>
+        
 
-            </div>
-            <div>
-
-            </div>
-        </aside>
     </main>
 
     <footer>
+        <hr>
         pie de página
     </footer>
 </body>

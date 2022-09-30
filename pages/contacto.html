@@ -17,55 +17,58 @@
         <h1>contacto</h1>
         <nav>
             <ul>
-                <li> <a href="main.html">principal</a></li>
-                <li> <a href="reserva.html">reservas</a></li>
-                <li> <a href="tienda.html">tienda</a></li>
-                <li> <a href="contacto.html">contacto</a></li>
-                <li> <a href="anular.html">anular</a></li>
-                <li> <a href="https://www.instagram.com/thecutbarberiasocialclub/?hl=es" target="_blank">instagram</a></li>
+                <li> <a href="main.html"><p>principal</p></a></li>
+                <li> <a href="reserva.html"><p>reservas</p></a></li>
+                <li> <a href="tienda.html"><p>tienda</p></a></li>
+                <li> <a href="contacto.html"><p class="pactiva">contacto</p></a></li>
+                <li> <a href="anular.html"><p>anular</p></a></li>
+                <li> <a href="https://www.instagram.com/thecutbarberiasocialclub/?hl=es" target="_blank"><p>instagram</p></a></li>
             </ul>
         </nav>
+        <hr>
     </header>
 
     <main>
         <article>
-            <header>
-                <h1>
-                    header 1
-                </h1>
-            </header>
-            <div>
-                <section>
-                    <h1>
-                        header 1
-                    </h1>
-                    <article>
-                        <h2>
-                            header 2
-                        </h2>
-                    </article>
-                    <article>
-                        <h2> h2
-
-                        </h2>
-                    </article>
-                </section>
+            <h2>contacto</h2>
+            <p>Ya sea para cotizar, consultar o saludar. Escríbenos.</p>
+            
+            <div class="container">
+              <form action="./mensaje.html">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">nombre</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="nombre">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="fecha">fecha</label>
+                </div>
+                <div class="col-75">
+                  <input type="date" id="fecha" name="fecha" placeholder="fecha de reserva">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="mensaje">mensaje</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="mensaje" name="mensaje" placeholder="Escribe algo..." style="height:200px"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="enviar">
+              </div>
+              </form>
             </div>
-        </article>
-        <aside>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima modi facilis voluptas laudantium corporis incidunt ducimus ipsam dolore assumenda voluptatem, adipisci impedit, expedita beatae, tempore aspernatur itaque a in.</p>
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-        </aside>
+            </article>
     </main>
-
     <footer>
+        <hr>
         pie de página
     </footer>
 </body>
