@@ -1,0 +1,26 @@
+$colorbg: white;
+
+body{
+    background-color: $colorbg;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+
+    li {
+        float: left;
+
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+      }
+  }
+  
