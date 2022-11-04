@@ -1,26 +1,9 @@
+@import "navbar";
+@import "reserva";
 $colorbg: white;
+$colorfnt: black;
 
 body{
     background-color: $colorbg;
+    color: $colorfnt;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFFFFF;
-
-    li {
-        float: left;
-
-        a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-          }
-      }
-  }
-  

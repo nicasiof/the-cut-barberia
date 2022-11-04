@@ -95,25 +95,7 @@ lo {
   background-color: #141414;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 /*--------------------------------------------------------------
 # botones
@@ -439,14 +421,3 @@ a:active {
 }
 
 
-
-.reservaBody { 
-  position: relative; 
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../images/297997740.jpg');
-  background-size: cover;
-}

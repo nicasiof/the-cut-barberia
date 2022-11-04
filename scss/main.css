@@ -1,7 +1,3 @@
-body {
-  background-color: white;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -18,4 +14,20 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.reservaBody {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/297997740.jpg");
+  background-size: cover;
+}
+
+body {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
