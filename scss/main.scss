@@ -1,9 +1,45 @@
-@import "navbar";
+/*@import "navbar";
 @import "reserva";
 $colorbg: white;
-$colorfnt: black;
+$colorfnt: black;*/
 
 body{
-    background-color: $colorbg;
-    color: $colorfnt;
+    /*position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    background: url("../images/297997740.jg") no-repeat center center fixed;
+    background-position: left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+
+p{
+    color: white;
+}
+
+/*
+.transp{
+    background-color: rgba($color: #0000, $alpha: .8);
+}
+
+.letratam{
+    font-size: 1rem;
+}
+
+.footerDiv{
+    background-color: black;
+    min-height: 150px;
+    width: 1500px;
+}
+
+.comtainerINdex{
+    width: 100%;
+}
+
+p{
+    font-size: 1rem;
+}
+*/

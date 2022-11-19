@@ -1,0 +1,47 @@
+body, footer,main{
+	margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+body{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("./images/bgIndex.jpg");
+	background-size: cover;
+}
+
+.translucid{
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+padding: 10px
+min-width: 100vw
+text-align: center
+}
+
+cienporc
+background-color: white
+width: 100vw
+
+a
+&:link, &:visited, &:hover, &:active
+  color: black
+  text-decoration: none
+
+/* visited link
+
+/* mouse over link
+
+/* selected link
+
+.h5
+font-size: 2rem
+
+.h6
+font-size: 1.5rem
+
+/*# sourceMappingURL=index.css.map

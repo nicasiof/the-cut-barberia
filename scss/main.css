@@ -1,33 +1,42 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-ul li {
-  float: left;
-}
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.reservaBody {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+/*@import "navbar";
+@import "reserva";
+$colorbg: white;
+$colorfnt: black;*/
+body {
+  /*position: relative; 
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-image: url("../images/297997740.jpg");
+  justify-content: center; */
+  background: url("../images/297997740.jg") no-repeat center center fixed;
+  background-position: left top;
   background-size: cover;
+  -o-background-size: cover;
 }
 
-body {
-  background-color: white;
-  color: black;
-}/*# sourceMappingURL=main.css.map */
+p {
+  color: white;
+}
+
+/*
+.transp{
+    background-color: rgba($color: #0000, $alpha: .8);
+}
+
+.letratam{
+    font-size: 1rem;
+}
+
+.footerDiv{
+    background-color: black;
+    min-height: 150px;
+    width: 1500px;
+}
+
+.comtainerINdex{
+    width: 100%;
+}
+
+p{
+    font-size: 1rem;
+}
+*//*# sourceMappingURL=main.css.map */
