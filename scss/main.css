@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; */
-  background: url("../images/297997740.jg") no-repeat center center fixed;
+  background: url("../images/main2.jpg") no-repeat center center fixed;
   background-position: left top;
   background-size: cover;
   -o-background-size: cover;
@@ -15,6 +15,10 @@ body {
 
 p {
   color: white;
+}
+
+.pblack {
+  color: black;
 }
 
 /*
