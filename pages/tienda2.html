@@ -65,12 +65,12 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <div class="row justify-content-md-center bg-white">
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 mb-2">
                                             <span class="help-block text-muted small-font"> Número al frente</span>
                                             <input type="text" class="form-control" placeholder="Número de la tarjeta" />
                                         </div>
                                     </div>
-                                    <div class="row ">
+                                    <div class="row mb-2 ">
                                         <div class="col-md-4 col-sm-4 col-xs-4">
                                             <span class="help-block text-muted small-font"> Mes Expira</span>
                                             <input type="text" class="form-control" placeholder="MM" />
@@ -84,15 +84,15 @@
                                             <input type="text" class="form-control" placeholder="CCV" />
                                         </div>
                                     </div>
-                                    <div class="row ">
-                                        <div class="col-md-12 pad-adjust">
+                                    <div class="row">
+                                        <div class="col-md-12 pad-adjust mb-2">
                                             <span class="help-block text-muted small-font"> Datos del tarjetahabiente</span>
                                             <input type="text" class="form-control" placeholder="Nombre en la tarjeta" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 pad-adjust">
-                                            <div class="checkbox">
+                                            <div class="checkbox mb-2">
                                                 <label>
                                                     <input type="checkbox" checked class="text-muted"> Guardar los datos
                                                     para otras compras
@@ -100,12 +100,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row col-md-12 pad-adjust">
+                                    <div class="row col-md-12 pad-adjust mb-2">
                                         <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
-                                            <input type="submit" class="btn btn-warning btn-block" value="CANCELAR" />
+                                            <a href="#" class=" btn btn-success mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdropp">Pagar</a>
+
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
-                                            <input type="submit" class="btn btn-success btn-block" value="PAGAR" />
+                                            <a href="#" style="float:right;" class=" btn btn-danger mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cancelar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -139,13 +140,32 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Has agregado con éxito el producto a la compra!
+                  Si deseas continuar comprando, haga click en el botón verde. Para cancelar su pedido y volver a la página principal haga click en el botón rojo.
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Seguir comprando</button>
+                  <a href="./main.html" target="_self" rel="noopener noreferrer" type="button" class="btn btn-danger">Cancelar compra</a>
                 </div>
               </div>
             </div>
-          </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdropp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroppLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdroppLabel">The cut barbería dice:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Si deseas realizar la compra, haga click en el botón verde. Para cancelar su pedido y volver a la página principal haga click en el botón rojo.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Seguir comprando</button>
+                  <a href="./main.html" target="_self" rel="noopener noreferrer" type="button" class="btn btn-danger">Cancelar compra</a>
+                </div>
+              </div>
+            </div>
+        </div>
     </body>
 </html>
